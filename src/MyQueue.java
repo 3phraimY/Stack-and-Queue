@@ -30,7 +30,7 @@ public class MyQueue<T> extends MyDoublyLinkedList implements Queue<T> {
 
 	@Override
 	public int GetLength() {
-		return this.Size;
+		return this.Size; 
 	}
 
 }
